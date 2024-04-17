@@ -1,0 +1,28 @@
+/**
+Metodo para establecer la propiedad <b>poder</b> del brujo.Si introducimos un valor 
+negativo se establecerá el poder del brujo a 0.
+@param poder. Valor que asignamos al atributo poder del Brujo.
+
+*/
+/**
+Método que devuelve si el brujo está muerto o no basado en el atributo vida y el atributo tieneAlma.
+Si la vida es igual o inferior a 0 o el atributo tieneAlma es false el método devolverá true. 
+En caso contrario el método devolvera false.
+@return devolverá true si la vida es igual o inferior a 0 o el atributo tieneAlma es false,
+en caso contrario devolverá false.
+*/
+
+
+/**
+Método que imprime si se ha podido succionar el alma o no.
+Si el brujo pasado por parámetro tiene alma igualamos el 
+atributo tiene alma a true, luego establecemos el atributo 
+tiene alma del brujo pasado por parámetro a false,
+incrementamos el atributo vida sumandole la vida 
+del brujo pasado por parametro y por último imprime
+el mensaje "Alma succionada".
+En caso contrario imprime el mensaje "No se ha podido succionar el alma".
+@param brujo. Pasamos un objeto brujo por parametro.
+
+
+*/

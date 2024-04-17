@@ -9,7 +9,8 @@ public class Main {
 		ImprimirPantalla ip = new ImprimirPantalla();
 		ip.imprimir(5);
 		ClaseAleatorios ca = new ClaseAleatorios();
-		ca.numeroAleatorioEntre2Numeros(2, 200);
+		System.out.println(ca.numeroAleatorioEntre2Numeros(2, 200));	
+		System.out.println(ca.numeroAleatorio());
 	
 		
 		
