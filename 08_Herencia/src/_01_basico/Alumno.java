@@ -10,6 +10,8 @@ public class Alumno extends Persona {
 	// de la clase Persona que son la edad y el nombre, y asi como
 	// sus métodos, el cual es presentarse().
 	
+	// OJOO no se heredan los contructores.
+	
 	public String curso;
 	
 	public boolean esCiencias() {

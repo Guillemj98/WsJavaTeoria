@@ -56,4 +56,12 @@ public class Vehiculo {
 		}
 		return false;
 	}
+
+	@Override
+	public String toString() {
+		return "Vehiculo [marca=" + marca + ", peso=" + peso + ", velocidad=" + velocidad + ", fechaFabricacion="
+				+ fechaFabricacion + "]";
+	}
+	
+	
 }

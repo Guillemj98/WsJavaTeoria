@@ -7,6 +7,12 @@ package _01_basico;
  * heredamos se llama clase "Padre" y la clase que hereda se llama
  * "Hija",es decir, la clase "Hija" tendrá todos lo atributos y métodos de 
  * la clase "Padre".
+ * 
+ * Existe el concepto de herencia multiple, esto se da cuando una clase
+ * hija tiene mas de un padre, por ejemplo, 2 padres.
+ * 
+ * En java la herencia multiple no se implementa directamente, se puede 
+ * hacer un interfaces
  */
 public class Persona {
 	public String nombre;
