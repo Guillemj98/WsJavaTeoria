@@ -1,4 +1,4 @@
-package _04_object;
+package _05_casting;
 
 import java.util.Objects;
 
@@ -59,7 +59,7 @@ public class Persona {
 
 
 	public void presentarse() {
-		System.out.println("Hola soy una persona y me llamo: " + nombre + " y tengo: " + edad + "años");
+		System.out.println("Hola soy una persona y me llamo: " + nombre + " y tengo: " + edad + " años");
 	}
 
 }
