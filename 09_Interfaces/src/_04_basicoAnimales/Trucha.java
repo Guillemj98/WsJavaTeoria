@@ -1,6 +1,8 @@
-package _01_basicoAnimales;
+package _04_basicoAnimales;
 
 public class Trucha extends Pez{
+
+	
 	
 
 }

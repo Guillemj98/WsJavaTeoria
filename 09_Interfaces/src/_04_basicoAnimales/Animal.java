@@ -1,6 +1,8 @@
-package _01_basicoAnimales;
+package _04_basicoAnimales;
 
 import java.util.Objects;
+
+import _04_basico.interfaz.Movible;
 
 /*
  * las clases abrastacas son clases que no se pueden instamciar.
@@ -13,7 +15,7 @@ import java.util.Objects;
  * pero en cuanto la clase tenga un solo método abstracto, la 
  * clase debe ser abstracta
  */
-public abstract class  Animal {
+public abstract class  Animal implements Movible {
 	private Sexo sexo;
 	private double peso;
 	private int edad;

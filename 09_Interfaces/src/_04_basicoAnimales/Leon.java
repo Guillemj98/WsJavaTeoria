@@ -1,4 +1,4 @@
-package _01_basicoAnimales;
+package _04_basicoAnimales;
 
 public class Leon extends Animal{
 
@@ -20,6 +20,20 @@ public class Leon extends Animal{
 			System.out.println("Na eso es lechuga");
 			
 		}
+		
+	}
+
+	@Override
+	public void moverseLento() {
+		double movimiento = 150 - getPeso()*0.10;
+		System.out.println("Soy un Leon y me muevo " + movimiento   );
+		
+	}
+
+	@Override
+	public void moverseRapido() {
+		double movimiento = 350 - getPeso()*0.10;
+		System.out.println("Soy un Leon y me muevo " + movimiento   );
 		
 	}
 	

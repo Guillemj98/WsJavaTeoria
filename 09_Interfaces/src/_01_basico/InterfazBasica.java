@@ -6,7 +6,7 @@ package _01_basico;
  * 
  * Están pensadas para que sean implementadas por otras clases 
  * 
- * Las interfaces definen el que queremos hacer, mientras que 
+ * Las interfaces definen el QUE queremos hacer, mientras que 
  * las clases que implementan las interfaces representan el 
  * COMO.
  * 
@@ -33,6 +33,10 @@ package _01_basico;
  * 
  * Todos los metodos y atributos de una interfaz son public, no importa que 
  * lo pongais explicitamente en el metodo.
+ * 
+ * Para crear una interfaz en java se hace como una clase pero se usa
+ * la palabra "interface". Aunque normalmente se creara mediante Eclipse.
+ * 
  * 
  */
 public interface InterfazBasica {

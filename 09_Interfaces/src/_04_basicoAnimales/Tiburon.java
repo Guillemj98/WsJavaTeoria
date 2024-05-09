@@ -1,4 +1,4 @@
-package _01_basicoAnimales;
+package _04_basicoAnimales;
 
 public class Tiburon extends Pez{
 
@@ -17,6 +17,8 @@ public class Tiburon extends Pez{
 			System.out.println("Soy un tiburon  solo como peces");
 		}
 	}
+
+	
 	
 
 }

@@ -1,4 +1,4 @@
-package _01_basicoAnimales;
+package _04_basicoAnimales;
 
 /**
  * Si heredamos de una clase que tiene métodos abstarctos, tenemos
@@ -41,6 +41,20 @@ public abstract class Pez extends Animal{
 			System.out.println("No guta ");
 		}
 		
+		
+	}
+
+	@Override
+	public void moverseLento() {
+		double movimiento = 200 - (0.10 * this.getPeso() + (25 * numeroAletas));
+		System.out.println("Soy un Pez y me muevo " + movimiento   );
+		
+	}
+
+	@Override
+	public void moverseRapido() {
+		double movimiento = 200 - (0.10 * this.getPeso() + (50 * numeroAletas));
+		System.out.println("Soy un Pez y me muevo " + movimiento   );
 		
 	}
 	
