@@ -15,6 +15,11 @@ public class Coche extends VehiculoTerrestre {
 		System.out.println("Soy un coche y me muevo " + movimiento   );
 		
 	}
+
+	public Coche() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 	
 	
 
